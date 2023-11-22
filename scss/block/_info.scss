@@ -1,0 +1,113 @@
+.info{
+    margin-bottom: 146px;
+    background-repeat: no-repeat;
+    background-image: url('../img/info.svg');
+    background-position-x: right;
+}
+.info__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info__content{
+    max-width: 445px;
+}
+.info__img{
+    border-radius: 40px;
+    max-width: 257.649px;
+    height: 498.861px;
+    flex-shrink: 0;
+    margin-left: 45px;
+}
+.info__title{
+    max-width: 445px;
+    color: #36536B;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px; 
+    letter-spacing: -0.369px;
+    margin-bottom: 24px;
+}
+.info__text{
+    color: #6C8294;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.info__block_img{
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width:1111px) {
+    .info__container{
+        text-align: center;
+        flex-direction: column-reverse;    
+    }
+    .info__title{
+        max-width: 573px;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 116.667% */
+        letter-spacing: -0.369px;
+    }
+    .info__text{
+        max-width: 573px;
+        color: #6C8294;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+ 
+}
+@media screen and (max-width:999px) {
+    .info{
+        background-image: none;
+    }
+    
+}
+@media screen and (max-width:680px) {
+    .info__img{
+        border-radius: 30px;
+        max-width: 200.649px;
+        height: auto;
+        flex-shrink: 0;
+        margin-left: 45px;
+    }
+    
+}
+@media screen and (max-width:552px) {
+    .info__container{
+        margin-top: -50px;
+    }
+    .info__img{
+        border-radius: 20px;
+        max-width: 104px;
+        height: auto;
+        flex-shrink: 0;
+        margin-left: 25px;
+    }
+    .info__title{
+        max-width: 327px;
+        color: #36536B;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px; 
+        letter-spacing: -0.277px;
+    }
+    .info__text{
+        max-width: 328px;
+        color: #6C8294;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,32 @@
+@mixin btn{
+    padding: 15px 25px;
+    color: #FBFCFE;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.115px;
+    max-width: 173px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+@mixin bottom{
+    padding: 15px 100px;
+    max-width: 327px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #BA4270;
+}
+@mixin HDbtn{
+    color: #36536B;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.115px;
+    width: 168px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #36536B;
+}

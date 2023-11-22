@@ -1,0 +1,116 @@
+.hero{
+    margin-top: -460px;
+}
+.hero__container{
+    justify-content: space-between;
+    display: flex;
+}
+.hero__content{
+    margin-top: 136px;
+}
+.hero__title{
+    max-width: 546px;
+    height: 243px;
+    flex-shrink: 0;
+    color: #36536B;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.554px;
+    margin-bottom: 21px;
+}
+.hero__form{
+    max-width: 445px;
+    border-radius: 24px;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.hero__input{
+    color: #36536B;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-left: 21px;
+}
+.hero__btn{
+    @include btn ;
+    margin-left: 44px;
+    transition: all 0.5s;
+    &:hover{
+        background: #DA6D97;
+    }
+}
+.hero__link{
+    color: #6C8294;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-left: 21px;
+}
+.hero__span{
+    color: #6C8294;
+    font-size: 15px;
+    font-weight: 700;
+}
+@media screen and (max-width:966px) {
+    .hero__title{
+        color: #36536B;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 62px; 
+        letter-spacing: -0.554px;
+    }
+    
+}
+@media screen and (max-width:842px) {
+    .hero__container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .hero__block_img{
+        margin-top: -40px;
+        margin-bottom: -120px;
+    }
+    .hero__img{
+        max-width: 271px;
+        height: auto;
+    }
+    .hero__content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__title{
+        color: #36536B;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: -0.369px;
+        margin-bottom: 21px;
+    }
+    .hero__form{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width:501px) {
+    .hero__title{
+        max-width: 327px;
+        color: #36536B;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 36px; 
+        letter-spacing: -0.246px;
+    }
+    .hero__form{
+        padding: 15px;
+        margin-top: -120px;
+    }
+    .hero__btn{
+        display: none;
+    }
+
+}
